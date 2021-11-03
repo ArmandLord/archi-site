@@ -24,14 +24,14 @@ const Home = () => {
           <div style={{ backgroundColor: 'white', display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center' }}>
             <h2>Sobre Nosotros</h2>
             <p>Somos un equipazo de arquitectos, urbanistas y diseñadores de interiores ubicados en Milan y Napoles con una red doméstica y oficinas internacionales.</p>
-            <img style={{ width: '50%', margin: '0 auto' , height: '60%'}} src={sobreNostros} />
+            <img alt="imagen" style={{ width: '50%', margin: '0 auto' , height: '60%'}} src={sobreNostros} />
             <Link to='/about'>Leer más</Link>
           </div>
 
           <div style={{ backgroundColor: 'white', display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center' }}>
             <h2>Nuestro Acercamiento</h2>
             <p>Nos asociamos con nuestros clientes -volviéndonos su equipo de desarrollo- para entender su visión, negocio, objetivos y oportunidades de mercado</p>
-            <img style={{ width: '50%', margin: '0 auto', height: '60%' }} src={acercamiento} />
+            <img alt="imagen" style={{ width: '50%', margin: '0 auto', height: '60%' }} src={acercamiento} />
             <Link to='/approach'>Leer más</Link>
           </div>
 
@@ -44,15 +44,15 @@ const Home = () => {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', height: '75%', gap: '1em', padding: '1em' }}>
             <div style={{ backgroundColor: 'white' }}>
               <h3>Gabriel Sanchez</h3>
-              <img src={arqGab} style={{ width: '100%', padding: '1em' }} />
+              <img alt="imagen" src={arqGab} style={{ width: '100%', padding: '1em' }} />
             </div>
             <div style={{ backgroundColor: 'white' }}>
               <h3>Armando Perez</h3>
-              <img src={arqArm} style={{ width: '100%', padding: '1em' }} />
+              <img alt="imagen" src={arqArm} style={{ width: '100%', padding: '1em' }} />
             </div>
             <div style={{ backgroundColor: 'white' }}>
               <h3>Samantha Correa</h3>
-              <img src={arqSam} style={{ width: '100%', padding: '1em' }} />
+              <img alt="imagen" src={arqSam} style={{ width: '100%', padding: '1em' }} />
             </div>
           </div>
         </div>
@@ -66,13 +66,13 @@ const Home = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt ex dui, eget lobortis purus bibendum id. Pellentesque suscipit mauris non porttitor varius. Etiam ullamcorper urna sed egestas egestas. Aliquam maximus augue sed quam accumsan bibendum. Sed euismod vehicula erat ac auctor. Morbi non diam vitae metus scelerisque ullamcorper vitae a erat. Sed eget dignissim metus. Proin fermentum, turpis ut finibus rutrum, ipsum neque auctor tellus, eget blandit orci elit nec est. Donec vitae sapien iaculis, feugiat lorem ac, egestas eros. Cras feugiat erat diam, id ultrices odio molestie gravida. Fusce vitae luctus nibh. Vivamus convallis maximus enim.</p>
         </div>
         <div >
-          <img style={{width:'100%', height:'100%'}} src={propiedad1}/>
+          <img alt="imagen" style={{width:'100%', height:'100%'}} src={propiedad1}/>
         </div>
         </div>
 
         <div style={{width:'100%', height:'80vh', display:'grid', gridTemplateColumns: 'repeat(2, 1fr)'}}>
         <div>
-          <img style={{width:'100%', height:'100%'}} src={propiedad2}/>
+          <img alt="imagen" style={{width:'100%', height:'100%'}} src={propiedad2}/>
         </div>
         <div>
         <h2>Propiedad</h2>
@@ -86,7 +86,7 @@ const Home = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt ex dui, eget lobortis purus bibendum id. Pellentesque suscipit mauris non porttitor varius. Etiam ullamcorper urna sed egestas egestas. Aliquam maximus augue sed quam accumsan bibendum. Sed euismod vehicula erat ac auctor. Morbi non diam vitae metus scelerisque ullamcorper vitae a erat. Sed eget dignissim metus. Proin fermentum, turpis ut finibus rutrum, ipsum neque auctor tellus, eget blandit orci elit nec est. Donec vitae sapien iaculis, feugiat lorem ac, egestas eros. Cras feugiat erat diam, id ultrices odio molestie gravida. Fusce vitae luctus nibh. Vivamus convallis maximus enim.</p>
         </div>
         <div>
-          <img style={{width:'100%', height:'100%'}} src={propiedad3}/>
+          <img alt="imagen" style={{width:'100%', height:'100%'}} src={propiedad3}/>
         </div>
         </div>
 
