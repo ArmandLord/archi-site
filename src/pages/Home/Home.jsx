@@ -23,14 +23,16 @@ const Home = () => {
         <div style={{ width: '100%', height: '60vh', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', padding: '1em', gap: '1em', backgroundColor: 'darkGray' }}>
           <div style={{ backgroundColor: 'white', display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center' }}>
             <h2>Sobre Nosotros</h2>
-            <p>Somos un equipazo de arquitectos, urbanistas y diseñadores de interiores ubicados en Milan y Napoles con una red doméstica y oficinas internacionales.</p>
+
+            <p>Somos un equipo de arquitectos, urbanistas y diseñadores de interiores ubicados en Milan y Napoles con una red doméstica y oficinas internacionales.</p>
             <img alt="imagen" style={{ width: '50%', margin: '0 auto' , height: '60%'}} src={sobreNostros} />
+
             <Link to='/about'>Leer más</Link>
           </div>
 
           <div style={{ backgroundColor: 'white', display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center' }}>
             <h2>Nuestro Acercamiento</h2>
-            <p>Nos asociamos con nuestros clientes -volviéndonos su equipo de desarrollo- para entender su visión, negocio, objetivos y oportunidades de mercado</p>
+            <p>Nos asociamos con nuestros clientes -volviéndonos su equipo de desarrollo- para entender su visión, negocio, objetivos y oportunidades de mercado.</p>
             <img alt="imagen" style={{ width: '50%', margin: '0 auto', height: '60%' }} src={acercamiento} />
             <Link to='/approach'>Leer más</Link>
           </div>
