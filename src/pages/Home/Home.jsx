@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../../components/NavBar/Navbar'
-import Footer from '../../components/Footer/Footer'
 import { Link } from 'react-router-dom';
 import arqGab from '../../Assets/arquitecto1.jpg'
 import arqArm from '../../Assets/arquitecto2.jpg'
@@ -16,7 +14,7 @@ import { CarouselC } from '../../components';
 const Home = () => {
   return (
     <div>
-      <Navbar />
+    
       
       <div style={{ width: '100%', height: '100%' }}>
         <div style={{ backgroundColor: '#e1e1e1', height: '100vh', width: '100%', textAlign: 'center' }}><CarouselC/></div>
@@ -96,7 +94,7 @@ const Home = () => {
         </div>
 
       </div>
-      <Footer />
+      
     </div>
 
   );

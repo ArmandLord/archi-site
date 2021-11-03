@@ -1,7 +1,7 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-function Navbar() {
+const Navbar = () => {
     return (
         <div style={{display: 'flex',  width: '100%', height:'10vh', backgroundColor:'gray'}}>
             <div style={{width:'20vw', backgroundColor:'darkgray', display:'flex', alignItems: 'center', justifyContent: 'center'}}>ArchSiteLogo</div>
