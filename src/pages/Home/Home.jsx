@@ -22,7 +22,7 @@ const Home = () => {
         <div style={{ backgroundColor: '#e1e1e1', height: '100vh', width: '100%', textAlign: 'center' }}><CarouselC/></div>
 
         <div style={{ width: '100%', height: '60vh', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', padding: '1em', gap: '1em', backgroundColor: 'darkGray' }}>
-          <div style={{ backgroundColor: 'white', display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center' }}>
+          <div style={{ backgroundColor: 'white', display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center'}}>
             <h2>Sobre Nosotros</h2>
 
             <p>Somos un equipo de arquitectos, urbanistas y diseñadores de interiores ubicados en Milan y Napoles con una red doméstica y oficinas internacionales.</p>
