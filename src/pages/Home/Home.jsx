@@ -19,7 +19,7 @@ const Home = () => {
       <div style={{ width: '100%', height: '100%' }}>
         <div style={{ backgroundColor: '#e1e1e1', height: '100vh', width: '100%', textAlign: 'center' }}><CarouselC/></div>
 
-        <div style={{ width: '100%', height: '60vh', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', padding: '1em', gap: '1em', backgroundColor: 'darkGray' }}>
+        <div style={{ maxWidth: '100%', height: '60vh', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', padding: '1em', backgroundColor: 'darkGray' }}>
           <div style={{ backgroundColor: 'white', display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center'}}>
             <h2>Sobre Nosotros</h2>
 
@@ -36,24 +36,24 @@ const Home = () => {
             <Link to='/approach'>Leer más</Link>
           </div>
 
-        </div>
+        </div> 
         {/* Fin sobrenosotros acercamiento */}
 
         <div style={{ width: '100%', height: '70vh', backgroundColor: '#e2e2e2' }}>
 
           <h2 style={{ textAlign: 'center', height: '15%' }}>Equipo</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', height: '75%', gap: '1em', padding: '1em' }}>
-            <div style={{ backgroundColor: 'white' }}>
-              <h3>Gabriel Sanchez</h3>
-              <img alt="imagen" src={arqGab} style={{ width: '100%', padding: '1em' }} />
+            <div style={{ backgroundColor: 'white' , padding:'1em' }}>
+               <h3>Gabriel Sanchez</h3> 
+              <img alt="imagen" src={arqGab} style={{ width: '100%' }} />
             </div>
-            <div style={{ backgroundColor: 'white' }}>
+            <div style={{ backgroundColor: 'white', padding:'1em'  }}>
               <h3>Armando Perez</h3>
-              <img alt="imagen" src={arqArm} style={{ width: '100%', padding: '1em' }} />
+              <img alt="imagen" src={arqArm} style={{ width: '100%' }} />
             </div>
-            <div style={{ backgroundColor: 'white' }}>
+            <div style={{ backgroundColor: 'white', padding:'1em' }}>
               <h3>Samantha Correa</h3>
-              <img alt="imagen" src={arqSam} style={{ width: '100%', padding: '1em' }} />
+              <img alt="imagen" src={arqSam} style={{ width: '100%' }} />
             </div>
           </div>
         </div>
