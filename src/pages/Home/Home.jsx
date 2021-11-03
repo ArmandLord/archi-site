@@ -10,15 +10,16 @@ import acercamiento from '../../Assets/diseño-plano.jpg'
 import propiedad1 from '../../Assets/vista-diagonal.jpg'
 import propiedad2 from '../../Assets/vista-frente-dark.jpg'
 import propiedad3 from '../../Assets/vista-frente.jpeg'
+import { CarouselC } from '../../components';
 
 
 const Home = () => {
   return (
-
     <div>
       <Navbar />
+      
       <div style={{ width: '100%', height: '100%' }}>
-        <div style={{ backgroundColor: '#e1e1e1', height: '100vh', width: '100%', textAlign: 'center' }}>Carrousel</div>
+        <div style={{ backgroundColor: '#e1e1e1', height: '100vh', width: '100%', textAlign: 'center' }}><CarouselC/></div>
 
         <div style={{ width: '100%', height: '60vh', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', padding: '1em', gap: '1em', backgroundColor: 'darkGray' }}>
           <div style={{ backgroundColor: 'white', display: 'flex', flexDirection: 'column', align: 'center', justifyContent: 'center' }}>
