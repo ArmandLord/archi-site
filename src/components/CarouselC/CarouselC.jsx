@@ -52,12 +52,12 @@ const CarouselC = () => {
     <CarouselContainer>
           <Carousel
             data={data}
-            time={2000}
+            time={3000}
             width="100%"
-            height="700px"
+            height="80vh"
             captionStyle={captionStyle}
             slideNumber={false}
-            captionPosition="bottom"
+            captionPosition="center"
             automatic={true}
             dots={true}
             pauseIconColor="white"

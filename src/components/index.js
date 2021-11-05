@@ -1,3 +1,5 @@
 export { default as CarouselC } from './CarouselC/CarouselC'
 export { default as Navbar } from './NavBar/Navbar'
 export { default as Footer } from './Footer/Footer'
+export { default as SectionAbout } from './SectionAbout/SectionAbout'
+export { default as SectionTeam } from './SectionTeam/SectionTeam'
